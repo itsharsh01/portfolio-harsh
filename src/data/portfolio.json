@@ -4,6 +4,12 @@
     "subtitle": "ML / AGENTIC AI BUILDER • IIT GANDHINAGAR",
     "coverLabel": "Topographic inspired portfolio banner",
     "coverImage": "/cover-pattern.png",
+    "badges": [
+      "Python · LLMs",
+      "Agentic AI",
+      "ML and DL",
+      "500+ LeetCode"
+    ],
     "resumeLink": "/resume.pdf"
   },
   "navigation": [
