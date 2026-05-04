@@ -4,12 +4,7 @@
     "subtitle": "ML / AGENTIC AI BUILDER • IIT GANDHINAGAR",
     "coverLabel": "Topographic inspired portfolio banner",
     "coverImage": "/cover-pattern.png",
-    "badges": [
-      "Python · LLMs",
-      "Agentic AI",
-      "ML and DL",
-      "500+ LeetCode"
-    ]
+    "resumeLink": "/resume.pdf"
   },
   "navigation": [
     { "label": "Overview", "target": "overview" },
@@ -20,7 +15,7 @@
     "image": "/overview-image.png",
     "imageAlt": "Harsh Gupta profile portrait",
     "overviewTitle": "Overview",
-    "overviewText": "Building practical AI systems with a product mindset and a strong focus on applied machine learning."
+    "overviewText": "AI/ML Engineer with 3 years of FinTech production experience — including a payment system handling 1M+ transactions/day under NPCI at 99.99% uptime. Now at IIT Gandhinagar building agentic AI systems that ship."
   },
   "skillsSection": {
     "title": "Skills",
@@ -31,7 +26,7 @@
         "colorScheme": "orange",
         "skills": [
           { "name": "Python", "status": "hot" },
-          { "name": "JavaScript", "status": "core" }
+          { "name": "Typescript", "status": "core" }
         ]
       },
       {
@@ -46,6 +41,20 @@
           { "name": "Prompt Engineering", "status": "hot" },
           { "name": "Tool Use & Function Calling", "status": "emerging" },
           { "name": "AI Memory & Reasoning Systems", "status": "emerging" }
+        ]
+      },
+      {
+        "name": "Backend & Systems",
+        "icon": "⚙️",
+        "colorScheme": "blue",
+        "skills": [
+          { "name": "Node.js", "status": "hot" },
+          { "name": "Queue Architecture", "status": "core" },
+          { "name": "Reactive Patterns", "status": "core" },
+          { "name": "REST APIs", "status": "hot" },
+          { "name": "Microservices", "status": "core" },
+          { "name": "Kubernetes", "status": "emerging" },
+          { "name": "FastAPI", "status": "hot" }
         ]
       },
       {
@@ -112,7 +121,7 @@
   "about": {
     "title": "About",
     "paragraphs": [
-      "Two years ago, I was shipping payment systems that processed millions of transactions. Today, I'm building the AI layer that will power the next generation of them.",
+      "Three years ago, I was shipping payment systems that processed millions of transactions. Today, I'm building the AI layer that will power the next generation of them.",
       "I made the leap from Software Engineering to AI/ML not because it was trendy, but because I kept hitting the ceiling of what rule-based systems could do. Now at IIT Gandhinagar's PGD-AI/ML program, I'm filling in the foundations while staying firmly hands-on — agentic pipelines, LLM applications, and backend systems that tie it all together.",
       "What makes me different from most AI engineers: I understand production. I know what it means to build for scale, handle real transactions, and own outcomes — not just experiments.",
       "500+ LeetCode problems isn't a flex. It's just how I stay sharp. I'm a problem-solver at core — give me an ambiguous challenge and I'll find the cleanest path through it.",
@@ -267,7 +276,7 @@
           "Designed Hold-N-Post fault-tolerance system for unreliable biller APIs",
           "Auto-scaling queue architecture cut pods from 6-7 to 2 at peak load"
         ],
-        "tags": ["Java", "Reactive Programming", "Spring Boot", "Kafka", "NPCI", "BBPS", "Payment Systems", "Microservices", "Auto-scaling", "High-scale Systems", "FinTech", "API Integration", "Kubernetes"],
+        "tags": ["Typescript", "Reactive Programming", "Nest JS", "Bull MQ", "NPCI", "Redis", "Payment Systems", "Microservices", "Auto-scaling", "High-scale Systems", "FinTech", "API Integration", "Kubernetes"],
         "detail": {
           "date": "Jan 2024 – Nov 2025",
           "utilizedTool": "Java, Spring WebFlux (Reactive), Kafka, Kubernetes, REST APIs, Microservices",

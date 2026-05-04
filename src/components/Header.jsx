@@ -1,4 +1,4 @@
-import SectionLink from './SectionLink'
+import { Download } from 'lucide-react'
 
 function Header({ header }) {
   const coverStyle = header.coverImage
@@ -24,15 +24,14 @@ function Header({ header }) {
         </p>
 
         <div className="mt-6 flex flex-wrap gap-3">
-          {header.badges.map((badge) => (
-            <SectionLink
-              key={badge}
-              target="top"
-              className="rounded-full border border-slate-200 bg-purple-50 px-3 py-1 text-sm text-slate-700 transition hover:bg-purple-100"
-            >
-              {badge}
-            </SectionLink>
-          ))}
+          <a
+            href={header.resumeLink || '#'}
+            download="Harsh_Gupta_Resume.pdf"
+            className="flex items-center gap-2 rounded-full border border-slate-800 bg-slate-900 px-5 py-2 text-sm font-medium text-white transition hover:bg-slate-800 hover:shadow-md"
+          >
+            <Download size={16} />
+            Download Resume
+          </a>
         </div>
       </div>
     </header>

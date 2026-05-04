@@ -121,7 +121,7 @@ function RightColumn({ about, rightPanelLinks, projectsSection, experienceSectio
                       onClick={() => setActiveProject({ title: exp.role, tags: exp.tags, detail: exp.detail })}
                       className="rounded-lg border border-slate-200 px-4 py-2 text-[14px] font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50 hover:text-slate-900"
                     >
-                      Know More
+                      View Full Details
                     </button>
                   </div>
                 </div>
