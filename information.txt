@@ -1,0 +1,38 @@
+Prompt:
+Build a responsive, Notion-inspired personal portfolio page using React and Tailwind CSS. The design should be minimalist, clean, and highly structured, using a stark white background (bg-white), dark gray/black typography (text-slate-900), and subtle light gray borders.
+
+1. Global Styling & Typography:
+
+Use the "Inter" font family (sans-serif) globally.
+
+The layout should have a maximum width container (e.g., max-w-5xl) centered on the page, with ample padding.
+
+2. Header Section:
+
+Cover Image: A full-width rectangular div at the top with a subtle, light beige topographic/wave pattern background image (height ~200px).
+
+Title Block: Positioned just below the cover image. Include a large, bold H1 for the name ("Harsh Gupta").
+
+Subtitle: Below the name, a medium text line in uppercase tracking-wide (e.g., "ML / AGENTIC AI BUILDER • IIT GANDHINAGAR").
+
+Skill Badges: A flex row of pill-shaped tags (rounded-full) just below the subtitle. They should have a very light gray/purple background (bg-slate-100 or bg-purple-50), a thin border (border-slate-200), and small dark text. Example tags: "Python · LLMs", "Agentic AI", "ML and DL", "500+ LeetCode".
+
+3. Main Content Layout:
+
+Below the header, create a two-column grid layout. On desktop, the left column should take up about 1/3 of the width, and the right column 2/3. On mobile, they should stack vertically.
+
+4. Left Column (Profile & Contact):
+
+Main Heading: A bold H2 saying "Overview".
+
+Profile Picture: A square image with slightly rounded corners (rounded-lg or rounded-xl), bordered by a thin gray line.
+
+Contact Section: A bold H3 saying "Contact". Below it, a vertical list of contact details (Phone, Email, Location, LinkedIn). Each item should feature a small, minimalist icon (lucide-react icons) next to the text.
+
+5. Right Column (About Section):
+
+Wrap this entire column's content inside a subtle card container (border border-slate-200 rounded-lg p-6 bg-white shadow-sm).
+
+Section Header: An H2 or H3 saying "About" with a small "@" or target icon next to it. Add a light horizontal divider (hr) below this header.
+
+Body Text: Several paragraphs of standard, highly readable text with generous line height (leading-relaxed) and spacing between paragraphs (space-y-4). The text should look editorial and clean.

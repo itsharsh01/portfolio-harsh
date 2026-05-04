@@ -1,0 +1,395 @@
+{
+  "header": {
+    "name": "Harsh Gupta",
+    "subtitle": "ML / AGENTIC AI BUILDER • IIT GANDHINAGAR",
+    "coverLabel": "Topographic inspired portfolio banner",
+    "coverImage": "/cover-pattern.png",
+    "badges": [
+      "Python · LLMs",
+      "Agentic AI",
+      "ML and DL",
+      "500+ LeetCode"
+    ]
+  },
+  "navigation": [
+    { "label": "Overview", "target": "overview" },
+    { "label": "Contact", "target": "contact" },
+    { "label": "About", "target": "about" }
+  ],
+  "profile": {
+    "image": "/overview-image.png",
+    "imageAlt": "Harsh Gupta profile portrait",
+    "overviewTitle": "Overview",
+    "overviewText": "Building practical AI systems with a product mindset and a strong focus on applied machine learning."
+  },
+  "skillsSection": {
+    "title": "Skills",
+    "categories": [
+      {
+        "name": "Programming Languages",
+        "icon": "💻",
+        "colorScheme": "orange",
+        "skills": [
+          { "name": "Python", "status": "hot" },
+          { "name": "JavaScript", "status": "core" }
+        ]
+      },
+      {
+        "name": "Agentic AI & GenAI",
+        "icon": "🤖",
+        "colorScheme": "teal",
+        "skills": [
+          { "name": "RAG Pipelines", "status": "hot" },
+          { "name": "MCP (Model Context Protocol)", "status": "hot" },
+          { "name": "AI Agents & Multi-agent Systems", "status": "hot" },
+          { "name": "LangChain · LlamaIndex", "status": "hot" },
+          { "name": "Prompt Engineering", "status": "hot" },
+          { "name": "Tool Use & Function Calling", "status": "emerging" },
+          { "name": "AI Memory & Reasoning Systems", "status": "emerging" }
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "icon": "🧠",
+        "colorScheme": "purple",
+        "skills": [
+          { "name": "Regression & Classification", "status": "hot" },
+          { "name": "Decision Trees · XGBoost", "status": "core" },
+          { "name": "Feature Engineering", "status": "core" },
+          { "name": "Model Evaluation & Metrics", "status": "core" },
+          { "name": "Time Series Forecasting", "status": "hot" },
+          { "name": "Reinforcement Learning", "status": "emerging" }
+        ]
+      },
+      {
+        "name": "Deep Learning",
+        "icon": "⚡",
+        "colorScheme": "blue",
+        "skills": [
+          { "name": "Neural Networks (CNNs, RNNs)", "status": "core" },
+          { "name": "Transformers & Attention", "status": "hot" },
+          { "name": "Fine-tuning LLMs (LoRA · QLoRA)", "status": "hot" },
+          { "name": "NLP — Sentiment · NER · Classification", "status": "core" },
+          { "name": "Embeddings & Vector Search", "status": "hot" },
+          { "name": "Multimodal AI", "status": "emerging" }
+        ]
+      },
+      {
+        "name": "Frameworks & Libraries",
+        "icon": "🔧",
+        "colorScheme": "red",
+        "skills": [
+          { "name": "PyTorch", "status": "hot" },
+          { "name": "TensorFlow · Keras", "status": "core" },
+          { "name": "Scikit-learn", "status": "core" },
+          { "name": "NumPy · Pandas", "status": "core" },
+          { "name": "HuggingFace Transformers", "status": "hot" },
+          { "name": "LangChain · LlamaIndex", "status": "hot" },
+          { "name": "FastAPI (ML serving)", "status": "hot" },
+          { "name": "Weights & Biases (MLOps)", "status": "emerging" },
+          { "name": "Docker · AWS / GCP", "status": "emerging" }
+        ]
+      },
+      {
+        "name": "Problem Solving & DSA",
+        "icon": "🏆",
+        "colorScheme": "green",
+        "skills": [
+          { "name": "Data Structures & Algorithms", "status": "core" },
+          { "name": "500+ LeetCode", "status": "core" },
+          { "name": "System Design", "status": "core" },
+          { "name": "High-scale Architecture", "status": "core" }
+        ]
+      }
+    ]
+  },
+  "contacts": [
+    { "label": "Phone", "value": "+91 8266831757", "icon": "phone", "target": "contact" },
+    { "label": "Email", "value": "itsharshgpt@gmail.com", "icon": "mail", "target": "contact" },
+    { "label": "Location", "value": "Gandhinagar, India", "icon": "mapPin", "target": "contact" },
+    { "label": "LinkedIn", "value": "linkedin.com/in/harsh-gupta-683892249", "icon": "link", "target": "contact" }
+  ],
+  "about": {
+    "title": "About",
+    "paragraphs": [
+      "Two years ago, I was shipping payment systems that processed millions of transactions. Today, I'm building the AI layer that will power the next generation of them.",
+      "I made the leap from Software Engineering to AI/ML not because it was trendy, but because I kept hitting the ceiling of what rule-based systems could do. Now at IIT Gandhinagar's PGD-AI/ML program, I'm filling in the foundations while staying firmly hands-on — agentic pipelines, LLM applications, and backend systems that tie it all together.",
+      "What makes me different from most AI engineers: I understand production. I know what it means to build for scale, handle real transactions, and own outcomes — not just experiments.",
+      "500+ LeetCode problems isn't a flex. It's just how I stay sharp. I'm a problem-solver at core — give me an ambiguous challenge and I'll find the cleanest path through it.",
+      "When I'm not building: I'm teaching what I know (LinkedIn, conversations, wherever), trekking when the mountains call, and reading — a habit I owe entirely to IIT's library."
+    ]
+  },
+  "rightPanelLinks": [
+    { "label": "Skills", "target": "skills" },
+    { "label": "Projects", "target": "projects" },
+    { "label": "Experience", "target": "experience" },
+    { "label": "Awards", "target": "awards" },
+    { "label": "Education", "target": "education" },
+    { "label": "Contact", "target": "contact" }
+  ],
+  "projectsSection": {
+    "title": "Projects",
+    "subtitle": "Click More Detail to view more.",
+    "items": [
+      {
+        "title": "Project 1",
+        "description": "LLM workflow automation for customer support.",
+        "tags": ["Vibe Coding", "Social Media"],
+        "target": "projects",
+        "detail": {
+          "date": "Jan 2025",
+          "utilizedTool": "Notion",
+          "goalChallenge": [
+            "Set up a repeatable project workspace for cross-functional collaboration.",
+            "Reduce handoff delays and improve visibility for stakeholders."
+          ],
+          "whatIDid": [
+            "Created project templates for weekly planning and sprint tracking.",
+            "Defined team task states and review checkpoints."
+          ],
+          "outcomeImpact": [
+            "Improved task clarity and ownership across the team.",
+            "Reduced follow-up meetings with better written updates."
+          ]
+        }
+      },
+      {
+        "title": "Project 2",
+        "description": "Recommendation engine with retrieval pipelines.",
+        "tags": ["Strategy", "Mentoring", "Data Analytics"],
+        "target": "projects",
+        "detail": {
+          "date": "Mar 2025",
+          "utilizedTool": "Airtable",
+          "goalChallenge": [
+            "Organize experimentation data and benchmark runs in one place.",
+            "Make progress and blockers visible to mentors."
+          ],
+          "whatIDid": [
+            "Built structured tracking sheets for datasets and model iterations.",
+            "Automated status summaries for weekly reviews."
+          ],
+          "outcomeImpact": [
+            "Faster decision making during iteration cycles.",
+            "Better traceability of model performance changes."
+          ]
+        }
+      },
+      {
+        "title": "Project 3",
+        "description": "AI design assistant for rapid web prototyping.",
+        "tags": ["Graphic Design", "Website Design"],
+        "target": "projects",
+        "detail": {
+          "date": "Jun 2025",
+          "utilizedTool": "Canva",
+          "goalChallenge": [
+            "Accelerate visual ideation for early product concepts.",
+            "Keep design output consistent with brand guidelines."
+          ],
+          "whatIDid": [
+            "Created reusable design blocks and prompt-to-design workflows.",
+            "Collaborated with developers to validate practical UI outputs."
+          ],
+          "outcomeImpact": [
+            "Reduced mockup turnaround time for feature proposals.",
+            "Improved design-development handoff quality."
+          ]
+        }
+      },
+      {
+        "title": "Project 4",
+        "description": "Research dashboard for performance tracking.",
+        "tags": ["Reporting", "Research", "Writing"],
+        "target": "projects",
+        "detail": {
+          "date": "Aug 2025",
+          "utilizedTool": "Capcut",
+          "goalChallenge": [
+            "Present outcomes clearly across technical and non-technical audiences.",
+            "Make reports concise while preserving technical depth."
+          ],
+          "whatIDid": [
+            "Prepared narrative-driven video and written summaries.",
+            "Synthesized insights into clear metrics and recommendations."
+          ],
+          "outcomeImpact": [
+            "Higher engagement with project updates and demos.",
+            "Improved stakeholder confidence in delivery progress."
+          ]
+        }
+      }
+    ]
+  },
+  "experienceSection": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Software Engineer",
+        "logo": "/negd-logo.jpg",
+        "company": "National e-Governance Division (NeGD), MeitY — Govt. of India",
+        "duration": "Nov 2025 – Feb 2026",
+        "highlights": [
+          "Automated infrastructure budget management dashboard",
+          "Reduced data entry time from 3-4 hrs to seconds",
+          "Accelerated client communication from 3-4 days to same-day",
+          "Built dynamic real-time update system replacing manual workflows"
+        ],
+        "tags": ["Python", "REST APIs", "Dashboard Development", "Government Tech", "Process Automation", "Data Pipeline", "React", "SQL"],
+        "detail": {
+          "date": "Nov 2025 – Feb 2026",
+          "utilizedTool": "Python, React.js, SQL, REST APIs, Data Pipeline Tools",
+          "goalChallenge": [
+            "Large-scale infrastructure budget data managed via slow manual processes across ministries and states",
+            "Change propagation to stakeholders took 3-4 days causing delays in critical government operations"
+          ],
+          "whatIDid": [
+            "Designed and developed internal dynamic dashboard for Ministry budget allocation and infrastructure management",
+            "Re-engineered data entry workflow from fully manual to one-click dynamic update system",
+            "Built real-time data sync so stakeholder reports updated instantly on system changes",
+            "Delivered end-to-end as primary engineer"
+          ],
+          "outcomeImpact": [
+            "Reduced data entry time from 3-4 hours to fraction of seconds — 99.9% efficiency gain",
+            "Compressed client communication lag from 3-4 days to same-day",
+            "Eliminated manual errors from high-volume budget entries across multiple ministries and states"
+          ]
+        }
+      },
+      {
+        "role": "Software Engineer — Backend & Payments",
+        "logo": "/plutos-logo.jpg",
+        "company": "Plutos ONE (FinTech Startup) — BBPS / NPCI Integration",
+        "duration": "Jan 2024 – Nov 2025",
+        "highlights": [
+          "Architected transaction middleware handling 1M+ transactions/day",
+          "Improved transaction success rate from 80% to 99.99%",
+          "Designed Hold-N-Post fault-tolerance system for unreliable biller APIs",
+          "Auto-scaling queue architecture cut pods from 6-7 to 2 at peak load"
+        ],
+        "tags": ["Java", "Reactive Programming", "Spring Boot", "Kafka", "NPCI", "BBPS", "Payment Systems", "Microservices", "Auto-scaling", "High-scale Systems", "FinTech", "API Integration", "Kubernetes"],
+        "detail": {
+          "date": "Jan 2024 – Nov 2025",
+          "utilizedTool": "Java, Spring WebFlux (Reactive), Kafka, Kubernetes, REST APIs, Microservices",
+          "goalChallenge": [
+            "Building BBPS under NPCI processing 1M+ bill payments/day via UPI apps (GPay, PhonePe) for major national billers",
+            "20% of valid transactions incorrectly rejected at launch due to biller API latency violating NPCI SLA time windows",
+            "Startup resource constraints required efficient auto-scaling under unpredictable peak loads"
+          ],
+          "whatIDid": [
+            "Solely owned transaction middleware layer between NPCI and downstream billers — most critical pipeline component",
+            "Designed Hold-N-Post fault-tolerance pattern: immediately ACK-ing NPCI within SLA window then asynchronously retrying biller APIs at configurable intervals",
+            "Architected round-robin dynamic queue system with auto-scaling based on real-time load metrics",
+            "Reduced active pod count from 6-7 at peak to 2 pods while sustaining full throughput"
+          ],
+          "outcomeImpact": [
+            "Drove transaction success rate from 80% to 99.99% on a 1M+ transactions/day system",
+            "Achieved full NPCI SLA compliance",
+            "Auto-scaling architecture sustained peak load on 2 pods vs prior 6-7 — approx 70% infrastructure cost reduction",
+            "Zero-downtime resilience for state electricity boards and national billers across India"
+          ]
+        }
+      },
+      {
+        "role": "Software Engineer — Full Stack",
+        "logo": "/echo-logo.jpg",
+        "company": "Echo IT Solutions",
+        "duration": "Jan 2023 – Jan 2024",
+        "highlights": [
+          "Built RESTful APIs for e-commerce and construction management platforms",
+          "Delivered end-to-end portal solutions across two industry verticals",
+          "Developed backend services for antique marketplace app"
+        ],
+        "tags": ["REST APIs", "Node.js", "Full Stack Development", "API Design", "Portal Development", "E-commerce", "Backend Engineering", "JavaScript", "SQL"],
+        "detail": {
+          "date": "Jan 2023 – Jan 2024",
+          "utilizedTool": "Node.js, REST APIs, SQL, JavaScript",
+          "goalChallenge": [
+            "Build reliable API infrastructure and portals for clients in antique e-commerce and construction project management",
+            "Required translating distinct business domains into scalable backend architecture"
+          ],
+          "whatIDid": [
+            "Designed RESTful APIs for antique marketplace mobile app handling product listings, search, and transaction flows",
+            "Built full construction work management portal for project tracking, resource allocation, and progress reporting",
+            "Collaborated with cross-functional teams to gather requirements and ship production-ready features"
+          ],
+          "outcomeImpact": [
+            "Delivered two client-facing products across different industry verticals in first year of professional experience",
+            "Established strong API design and backend fundamentals that carried into high-scale FinTech work at Plutos ONE"
+          ]
+        }
+      }
+    ]
+  },
+  "educationSection": {
+    "title": "Education",
+    "items": [
+      {
+        "logo": "/iit-gandhinagar-logo.jpg",
+        "degree": "PG Diploma in Artificial Intelligence & Machine Learning",
+        "institution": "IIT Gandhinagar",
+        "duration": "Feb 2026 – Present",
+        "details": [
+          "Specialization: Machine Learning | Deep Learning | NLP | Agentic AI | LLM Engineering | RAG Pipelines | MCP | Reinforcement Learning"
+        ]
+      },
+      {
+        "logo": "/aktu-logo.jpg",
+        "degree": "B.Tech in Computer Science & Engineering (CSE)",
+        "institution": "Dr. APJ Abdul Kalam Technical University",
+        "duration": "2019 – 2023",
+        "details": [
+          "Specialization: Computer Science Fundamentals | Backend Engineering | Full Stack Development | Data Structures & Algorithms"
+        ]
+      }
+    ]
+  },
+  "blogSection": {
+    "title": "Blog",
+    "items": [
+      {
+        "title": "Understanding Agentic Workflows",
+        "date": "April 2026",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=400&q=80",
+        "imageAlt": "Agentic AI workflows"
+      },
+      {
+        "title": "Optimizing RAG Pipelines",
+        "date": "March 2026",
+        "link": "#",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=400&q=80",
+        "imageAlt": "Data processing and RAG"
+      }
+    ]
+  },
+  "achievementsSection": {
+    "title": "Achievements",
+    "items": [
+      {
+        "title": "AWS Certified Machine Learning",
+        "date": "August 2025",
+        "organization": "Amazon Web Services",
+        "description": "Validation of expertise in building, training, tuning, and deploying ML models on AWS.",
+        "type": "achievement",
+        "certificateDetails": {
+          "credentialId": "AWS-ML-12345",
+          "url": "https://aws.amazon.com/certification/",
+          "skills": ["SageMaker", "Deep Learning", "Data Engineering"]
+        }
+      },
+      {
+        "title": "Kaggle Grandmaster",
+        "date": "December 2025",
+        "organization": "Kaggle",
+        "description": "Achieved top 0.1% tier in global machine learning competitions.",
+        "type": "achievement",
+        "certificateDetails": {
+          "credentialId": "KGL-54321",
+          "url": "https://www.kaggle.com/",
+          "skills": ["Ensemble Methods", "Feature Engineering", "CV", "NLP"]
+        }
+      }
+    ]
+  }
+}

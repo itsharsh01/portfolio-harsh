@@ -1,0 +1,2 @@
+Role,Company,Duration,Highlights (separate with |),Tags (separate with |),Detail_Date,Detail_UtilizedTool,Detail_GoalChallenge (separate with |),Detail_WhatIDid (separate with |),Detail_OutcomeImpact (separate with |)
+"ML Engineer Intern","Example Tech Corp","Jan 2025 - Present","Assisted with operations | Managed tasks independently","Python | AWS | LLMs","Jan 2025 - Present","PyTorch, AWS, LangChain","Need for better semantic search | Goal was to build RAG","Designed architecture | Implemented vector DB","Increased accuracy by 20% | Reduced latency by 50ms"
