@@ -1,11 +1,10 @@
-import { Link, Mail, MapPin, Phone } from 'lucide-react'
-import SectionLink from './SectionLink'
+import { Link, Mail, MessageCircle, Twitter } from 'lucide-react'
 
 const iconMap = {
-  phone: Phone,
   mail: Mail,
-  mapPin: MapPin,
   link: Link,
+  messageCircle: MessageCircle,
+  twitter: Twitter,
 }
 
 const statusColorMap = {
@@ -43,15 +42,18 @@ function LeftColumn({ profile, skillsSection, contacts, blogSection }) {
             const Icon = iconMap[item.icon]
             return (
               <li key={item.label}>
-                <SectionLink
-                  target={item.target}
-                  className="flex items-center gap-3 rounded-md border border-slate-200 p-3 text-slate-700 transition hover:bg-slate-50"
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between rounded-md border border-slate-200 bg-white p-3 text-slate-700 shadow-sm transition hover:bg-slate-50 hover:shadow-md hover:-translate-y-0.5"
                 >
-                  <Icon size={16} className="text-slate-500" />
-                  <span className="text-sm">
-                    <span className="font-medium text-slate-900">{item.label}:</span> {item.value}
-                  </span>
-                </SectionLink>
+                  <div className="flex items-center gap-3">
+                    <Icon size={18} className="text-slate-600" />
+                    <span className="font-semibold text-slate-900">{item.label}</span>
+                  </div>
+                  <span className="text-xs font-bold uppercase tracking-wider text-slate-400">&rarr;</span>
+                </a>
               </li>
             )
           })}

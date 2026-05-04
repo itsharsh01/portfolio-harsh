@@ -119,10 +119,10 @@
     ]
   },
   "contacts": [
-    { "label": "Phone", "value": "+91 8266831757", "icon": "phone", "target": "contact" },
-    { "label": "Email", "value": "itsharshgpt@gmail.com", "icon": "mail", "target": "contact" },
-    { "label": "Location", "value": "Gandhinagar, India", "icon": "mapPin", "target": "contact" },
-    { "label": "LinkedIn", "value": "linkedin.com/in/harsh-gupta-683892249", "icon": "link", "target": "contact" }
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/harsh-gupta-683892249", "icon": "link" },
+    { "label": "Email", "url": "mailto:itsharshgpt@gmail.com", "icon": "mail" },
+    { "label": "WhatsApp", "url": "https://wa.me/918266831757", "icon": "messageCircle" },
+    { "label": "X", "url": "https://x.com/codewith_harsh", "icon": "twitter" }
   ],
   "about": {
     "title": "About",
