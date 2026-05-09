@@ -12,6 +12,7 @@ import {
   X,
 } from 'lucide-react'
 import SectionLink from './SectionLink'
+import { resolveAssetUrl } from '../assets/bundledAssets'
 
 const quickNavIconByTarget = {
   skills: Code2,
@@ -112,7 +113,7 @@ function RightColumn({ about, rightPanelLinks, projectsSection, experienceSectio
                   {project.coverImage && (
                     <>
                       <img
-                        src={project.coverImage}
+                        src={resolveAssetUrl(project.coverImage)}
                         alt={project.coverImageAlt || ''}
                         className="absolute inset-0 h-full w-full object-cover object-left-top"
                       />
@@ -176,7 +177,7 @@ function RightColumn({ about, rightPanelLinks, projectsSection, experienceSectio
                 <div className="flex gap-4">
                   <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-slate-200 bg-slate-50 text-2xl shadow-sm overflow-hidden">
                     {exp.logo ? (
-                      <img src={exp.logo} alt={exp.company} className="h-full w-full object-contain" />
+                      <img src={resolveAssetUrl(exp.logo)} alt={exp.company} className="h-full w-full object-contain" />
                     ) : (
                       exp.icon || "💼"
                     )}
@@ -223,7 +224,7 @@ function RightColumn({ about, rightPanelLinks, projectsSection, experienceSectio
                 <div className="flex gap-4">
                   <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl border border-slate-200 bg-slate-50 text-2xl shadow-sm overflow-hidden">
                     {edu.logo ? (
-                      <img src={edu.logo} alt={edu.institution} className="h-full w-full object-contain" />
+                      <img src={resolveAssetUrl(edu.logo)} alt={edu.institution} className="h-full w-full object-contain" />
                     ) : (
                       edu.icon || "🎓"
                     )}

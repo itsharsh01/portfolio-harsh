@@ -1,10 +1,11 @@
 import { Download } from 'lucide-react'
 import SectionLink from './SectionLink'
+import { resolveAssetUrl } from '../assets/bundledAssets'
 
 function Header({ header }) {
   const coverStyle = header.coverImage
     ? {
-        backgroundImage: `linear-gradient(to bottom right, rgba(250, 250, 249, 0.94), rgba(248, 250, 252, 0.9)), url(${header.coverImage})`,
+        backgroundImage: `linear-gradient(to bottom right, rgba(250, 250, 249, 0.94), rgba(248, 250, 252, 0.9)), url(${resolveAssetUrl(header.coverImage)})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }
@@ -37,7 +38,7 @@ function Header({ header }) {
             ))}
           </div>
           <a
-            href={header.resumeLink || '#'}
+            href={header.resumeLink ? resolveAssetUrl(header.resumeLink) : '#'}
             download="Harsh-Gupta-Resume.pdf"
             className="flex items-center gap-1.5 rounded-full border border-slate-800 bg-slate-900 px-4 py-1.5 text-[13px] font-medium text-white transition hover:bg-slate-800 hover:shadow-md"
           >

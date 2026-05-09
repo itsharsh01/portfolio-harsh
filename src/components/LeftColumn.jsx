@@ -1,4 +1,5 @@
 import { Link, Mail, MessageCircle, X } from 'lucide-react'
+import { resolveAssetUrl } from '../assets/bundledAssets'
 
 const iconMap = {
   mail: Mail,
@@ -29,7 +30,7 @@ function LeftColumn({ profile, skillsSection, contacts, blogSection }) {
         <h2 className="mb-3 text-2xl font-bold text-slate-900">{profile.overviewTitle}</h2>
         <p className="mb-5 leading-relaxed text-slate-700">{profile.overviewText}</p>
         <img
-          src={profile.image}
+          src={resolveAssetUrl(profile.image)}
           alt={profile.imageAlt}
           className="aspect-square w-full rounded-xl border border-slate-200 object-cover"
         />
@@ -98,7 +99,7 @@ function LeftColumn({ profile, skillsSection, contacts, blogSection }) {
                 {post.image && (
                   <div className="h-40 w-full overflow-hidden border-b border-slate-200">
                     <img
-                      src={post.image}
+                      src={resolveAssetUrl(post.image)}
                       alt={post.imageAlt || post.title}
                       className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
                     />
