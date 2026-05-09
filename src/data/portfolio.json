@@ -243,6 +243,38 @@
             "Moved eligibility validation to early application stages, preventing costly downstream processing errors."
           ]
         }
+      },
+      {
+        "title": "BookWise AI",
+        "description": "Advanced RAG chatbot for deep book learning and contextual Q&A.",
+        "tags": [
+          "LangChain",
+          "FastAPI",
+          "Vector DB",
+          "Hybrid Search",
+          "Re-ranking",
+          "RAG"
+        ],
+        "coverImage": "/bookwise-ai-cover.png",
+        "coverImageAlt": "BookWise AI — library scene with glowing book, brain icon, and contextual Q&A from chapters",
+        "target": "projects",
+        "detail": {
+          "date": "2026",
+          "utilizedTool": "Python, LangChain, FastAPI, Vector Database, BM25 Hybrid Retrieval, Cross-Encoder Re-ranking, Redis",
+          "goalChallenge": [
+            "Traditional book chatbots struggle with deep contextual understanding, exact keyword retrieval, and long-form knowledge consistency.",
+            "Pure vector search often misses exact phrases, formulas, and structurally important sections while increasing token costs on large contexts."
+          ],
+          "whatIDid": [
+            "Built a production-grade RAG system using structural chunking, recursive chunking, and semantic chunking strategies based on document type and retrieval intent.",
+            "Implemented hybrid retrieval combining keyword search and semantic vector search, followed by re-ranking to surface the most relevant passages before LLM generation.",
+            "Optimized prompt pipelines with context compression, selective retrieval, and efficient LLM orchestration to improve answer quality while reducing token consumption."
+          ],
+          "outcomeImpact": [
+            "Improved retrieval precision by over 30% compared to vector-only search on benchmark queries.",
+            "Reduced unnecessary LLM context usage by nearly 40% while maintaining high-quality grounded responses."
+          ]
+        }
       }
     ]
   },
