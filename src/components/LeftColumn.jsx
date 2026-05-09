@@ -1,10 +1,10 @@
-import { Link, Mail, MessageCircle, Twitter } from 'lucide-react'
+import { Link, Mail, MessageCircle, X } from 'lucide-react'
 
 const iconMap = {
   mail: Mail,
   link: Link,
   messageCircle: MessageCircle,
-  twitter: Twitter,
+  twitter: X,
 }
 
 const statusColorMap = {
