@@ -27,93 +27,116 @@
     "title": "Skills",
     "categories": [
       {
-        "name": "Programming Languages",
+        "name": "Languages",
         "icon": "💻",
         "colorScheme": "orange",
         "skills": [
           { "name": "Python", "status": "hot" },
-          { "name": "Typescript", "status": "core" }
+          { "name": "TypeScript", "status": "hot" }
         ]
       },
       {
-        "name": "Agentic AI & GenAI",
+        "name": "AI / LLM Engineering",
         "icon": "🤖",
         "colorScheme": "teal",
         "skills": [
-          { "name": "RAG Pipelines", "status": "hot" },
-          { "name": "MCP (Model Context Protocol)", "status": "hot" },
-          { "name": "AI Agents & Multi-agent Systems", "status": "hot" },
-          { "name": "LangChain · LlamaIndex", "status": "hot" },
-          { "name": "Prompt Engineering", "status": "hot" },
-          { "name": "Tool Use & Function Calling", "status": "emerging" },
-          { "name": "AI Memory & Reasoning Systems", "status": "emerging" }
+          { "name": "LangChain", "status": "hot" },
+          { "name": "LlamaIndex", "status": "hot" },
+          { "name": "Vector Databases", "status": "hot" },
+          { "name": "OpenAI API", "status": "hot" },
+          { "name": "Hugging Face Transformers", "status": "hot" },
+          { "name": "Evaluation & Guardrails", "status": "core" }
         ]
       },
       {
-        "name": "Backend & Systems",
-        "icon": "⚙️",
-        "colorScheme": "blue",
-        "skills": [
-          { "name": "Node.js", "status": "hot" },
-          { "name": "Queue Architecture", "status": "core" },
-          { "name": "Reactive Patterns", "status": "core" },
-          { "name": "REST APIs", "status": "hot" },
-          { "name": "Microservices", "status": "core" },
-          { "name": "Kubernetes", "status": "emerging" },
-          { "name": "FastAPI", "status": "hot" }
-        ]
-      },
-      {
-        "name": "Machine Learning",
-        "icon": "🧠",
+        "name": "Multi-Agent Systems",
+        "icon": "🔀",
         "colorScheme": "purple",
         "skills": [
-          { "name": "Regression & Classification", "status": "hot" },
-          { "name": "Decision Trees · XGBoost", "status": "core" },
-          { "name": "Feature Engineering", "status": "core" },
-          { "name": "Model Evaluation & Metrics", "status": "core" },
-          { "name": "Time Series Forecasting", "status": "hot" },
-          { "name": "Reinforcement Learning", "status": "emerging" }
+          { "name": "LangGraph", "status": "hot" },
+          { "name": "CrewAI", "status": "hot" },
+          { "name": "AutoGen-style Frameworks", "status": "core" },
+          { "name": "Tool Calling", "status": "hot" },
+          { "name": "Workflow Orchestration", "status": "core" },
+          { "name": "Agent Memory Design", "status": "core" }
         ]
       },
       {
-        "name": "Deep Learning",
-        "icon": "⚡",
+        "name": "ML / Deep Learning",
+        "icon": "🧠",
         "colorScheme": "blue",
         "skills": [
-          { "name": "Neural Networks (CNNs, RNNs)", "status": "core" },
-          { "name": "Transformers & Attention", "status": "hot" },
-          { "name": "Fine-tuning LLMs (LoRA · QLoRA)", "status": "hot" },
-          { "name": "NLP — Sentiment · NER · Classification", "status": "core" },
-          { "name": "Embeddings & Vector Search", "status": "hot" },
-          { "name": "Multimodal AI", "status": "emerging" }
+          { "name": "PyTorch", "status": "hot" },
+          { "name": "TensorFlow", "status": "core" },
+          { "name": "Keras", "status": "core" },
+          { "name": "Scikit-learn", "status": "core" },
+          { "name": "Pandas", "status": "core" },
+          { "name": "NumPy", "status": "core" }
         ]
       },
       {
-        "name": "Frameworks & Libraries",
-        "icon": "🔧",
+        "name": "Backend / APIs",
+        "icon": "⚙️",
         "colorScheme": "red",
         "skills": [
-          { "name": "PyTorch", "status": "hot" },
-          { "name": "TensorFlow · Keras", "status": "core" },
-          { "name": "Scikit-learn", "status": "core" },
-          { "name": "NumPy · Pandas", "status": "core" },
-          { "name": "HuggingFace Transformers", "status": "hot" },
-          { "name": "LangChain · LlamaIndex", "status": "hot" },
-          { "name": "FastAPI (ML serving)", "status": "hot" },
-          { "name": "Weights & Biases (MLOps)", "status": "emerging" },
-          { "name": "Docker · AWS / GCP", "status": "emerging" }
+          { "name": "NestJS", "status": "hot" },
+          { "name": "FastAPI", "status": "hot" },
+          { "name": "REST APIs", "status": "core" },
+          { "name": "Microservices", "status": "core" },
+          { "name": "Event Queues", "status": "core" },
+          { "name": "WebSockets", "status": "core" }
         ]
       },
       {
-        "name": "Problem Solving & DSA",
+        "name": "Databases & Storage",
+        "icon": "🗄️",
+        "colorScheme": "green",
+        "skills": [
+          { "name": "PostgreSQL", "status": "hot" },
+          { "name": "MongoDB", "status": "core" },
+          { "name": "Redis", "status": "core" },
+          { "name": "Vector Databases", "status": "hot" }
+        ]
+      },
+      {
+        "name": "MLOps / DevOps",
+        "icon": "🚀",
+        "colorScheme": "teal",
+        "skills": [
+          { "name": "Docker", "status": "hot" },
+          { "name": "Kubernetes", "status": "core" },
+          { "name": "MLflow", "status": "core" },
+          { "name": "DVC", "status": "core" },
+          { "name": "CI/CD (GitHub Actions, Jenkins)", "status": "core" }
+        ]
+      },
+      {
+        "name": "Cloud Platforms",
+        "icon": "☁️",
+        "colorScheme": "blue",
+        "skills": [
+          { "name": "AWS (S3, EC2, Lambda)", "status": "hot" },
+          { "name": "GCP", "status": "core" }
+        ]
+      },
+      {
+        "name": "Tools",
+        "icon": "🛠️",
+        "colorScheme": "purple",
+        "skills": [
+          { "name": "Git/GitHub", "status": "core" },
+          { "name": "Linux", "status": "core" },
+          { "name": "Postman", "status": "core" },
+          { "name": "Jira", "status": "core" },
+          { "name": "VS Code", "status": "core" }
+        ]
+      },
+      {
+        "name": "Problem Solving",
         "icon": "🏆",
         "colorScheme": "green",
         "skills": [
-          { "name": "Data Structures & Algorithms", "status": "core" },
-          { "name": "500+ LeetCode", "status": "core" },
-          { "name": "System Design", "status": "core" },
-          { "name": "High-scale Architecture", "status": "core" }
+          { "name": "Solved 500+ LeetCode Problems (DSA, Algorithms, System Design)", "status": "hot" }
         ]
       }
     ]
@@ -147,90 +170,77 @@
     "subtitle": "Click More Detail to view more.",
     "items": [
       {
-        "title": "Project 1",
-        "description": "LLM workflow automation for customer support.",
-        "tags": ["Vibe Coding", "Social Media"],
+        "title": "TenderLens AI",
+        "description": "AI-powered tender eligibility and compliance evaluator.",
+        "tags": ["LangGraph", "FastAPI", "React", "Redis", "Celery"],
+        "repoUrl": "https://github.com/itsharsh01/tender-analyzer",
+        "coverImage": "/tenderlens-ai-cover.png",
+        "coverImageAlt": "TenderLens AI — AI evaluator branding: precision tender evaluation with neural-inspired circuitry",
         "target": "projects",
         "detail": {
-          "date": "Jan 2025",
-          "utilizedTool": "Notion",
+          "date": "2026",
+          "utilizedTool": "Python, LangGraph, FastAPI, ReactJS, Groq, OpenRouter, Celery, Redis",
           "goalChallenge": [
-            "Set up a repeatable project workspace for cross-functional collaboration.",
-            "Reduce handoff delays and improve visibility for stakeholders."
+            "Manual tender procurement review consumes significant time and expert effort.",
+            "Vendors struggle to understand exact eligibility criteria and missing compliance documents."
           ],
           "whatIDid": [
-            "Created project templates for weekly planning and sprint tracking.",
-            "Defined team task states and review checkpoints."
+            "Built a multi-agent evaluation workflow for tender parsing, criteria extraction, submission comparison, and eligibility scoring.",
+            "Designed document intelligence pipelines that map uploaded submissions directly against tender criteria with evidence-backed compliance reporting."
           ],
           "outcomeImpact": [
-            "Improved task clarity and ownership across the team.",
-            "Reduced follow-up meetings with better written updates."
+            "Reduced manual procurement evaluation effort by over 80%.",
+            "Enabled instant eligibility checks with exact missing criteria and document-level compliance visibility."
           ]
         }
       },
       {
-        "title": "Project 2",
-        "description": "Recommendation engine with retrieval pipelines.",
-        "tags": ["Strategy", "Mentoring", "Data Analytics"],
+        "title": "IntelliGrad",
+        "description": "Gamified AI learning platform with measurable scoring.",
+        "tags": ["LangChain", "FastAPI", "Vector DB", "Guardrails", "React"],
+        "repoUrl": "https://github.com/itsharsh01/intelli-grade-backend/tree/shubham",
+        "coverImage": "/intelligrad-dashboard.png",
+        "coverImageAlt": "IntelliGrad student dashboard — achievements, milestones, and path to mastery",
         "target": "projects",
         "detail": {
-          "date": "Mar 2025",
-          "utilizedTool": "Airtable",
+          "date": "2026",
+          "utilizedTool": "Python, LangChain, FastAPI, Vector Database, Guardrails, ReactJS",
           "goalChallenge": [
-            "Organize experimentation data and benchmark runs in one place.",
-            "Make progress and blockers visible to mentors."
+            "Learning through LLM conversations provides knowledge but no measurable proof of progress.",
+            "Students need incentives, scoring, and visible rewards tied to learning quality."
           ],
           "whatIDid": [
-            "Built structured tracking sheets for datasets and model iterations.",
-            "Automated status summaries for weekly reviews."
+            "Built conversational scoring pipelines that evaluate user-agent interactions and convert them into marks, rewards, and learning progression.",
+            "Implemented topic-specific guardrails and retrieval-backed evaluation to keep conversations focused and educational."
           ],
           "outcomeImpact": [
-            "Faster decision making during iteration cycles.",
-            "Better traceability of model performance changes."
+            "Created measurable AI-driven learning scores for otherwise untracked LLM interactions.",
+            "Maintained over 95% topic adherence through guided conversational learning flows."
           ]
         }
       },
       {
-        "title": "Project 3",
-        "description": "AI design assistant for rapid web prototyping.",
-        "tags": ["Graphic Design", "Website Design"],
+        "title": "AdmitGuard",
+        "description": "AI-powered admission eligibility and verification platform.",
+        "tags": ["FastAPI", "React", "PostgreSQL", "Rule Engine", "AI Validation"],
+        "repoUrl": "https://github.com/itsharsh01/admit-guard",
+        "coverImage": "/admitguard-cover.png",
+        "coverImageAlt": "Admit Guard — secure admissions, streamlined success: shield branding with data flowing from chaos to order",
         "target": "projects",
         "detail": {
-          "date": "Jun 2025",
-          "utilizedTool": "Canva",
+          "date": "2026",
+          "utilizedTool": "Python, FastAPI, ReactJS, PostgreSQL, Rule Engine, AI Validation Pipelines",
           "goalChallenge": [
-            "Accelerate visual ideation for early product concepts.",
-            "Keep design output consistent with brand guidelines."
+            "Manual spreadsheet-based admission verification caused silent eligibility errors and late-stage candidate rejection.",
+            "Institution-specific eligibility rules were complex, exception-driven, and frequently updated."
           ],
           "whatIDid": [
-            "Created reusable design blocks and prompt-to-design workflows.",
-            "Collaborated with developers to validate practical UI outputs."
+            "Built a rule-driven validation platform to automate eligibility checks, structured exception handling, and document verification workflows.",
+            "Designed configurable admission rules so changing program criteria could be updated without disrupting existing candidate pipelines."
           ],
           "outcomeImpact": [
-            "Reduced mockup turnaround time for feature proposals.",
-            "Improved design-development handoff quality."
-          ]
-        }
-      },
-      {
-        "title": "Project 4",
-        "description": "Research dashboard for performance tracking.",
-        "tags": ["Reporting", "Research", "Writing"],
-        "target": "projects",
-        "detail": {
-          "date": "Aug 2025",
-          "utilizedTool": "Capcut",
-          "goalChallenge": [
-            "Present outcomes clearly across technical and non-technical audiences.",
-            "Make reports concise while preserving technical depth."
-          ],
-          "whatIDid": [
-            "Prepared narrative-driven video and written summaries.",
-            "Synthesized insights into clear metrics and recommendations."
-          ],
-          "outcomeImpact": [
-            "Higher engagement with project updates and demos.",
-            "Improved stakeholder confidence in delivery progress."
+            "Reduced manual verification cycles by nearly 70%.",
+            "Moved eligibility validation to early application stages, preventing costly downstream processing errors."
           ]
         }
       }

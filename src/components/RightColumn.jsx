@@ -1,6 +1,44 @@
 import { useState } from 'react'
-import { AtSign, X } from 'lucide-react'
+import {
+  AtSign,
+  Award,
+  Briefcase,
+  ChevronRight,
+  Code2,
+  FolderKanban,
+  GraduationCap,
+  LayoutGrid,
+  Mail,
+  X,
+} from 'lucide-react'
 import SectionLink from './SectionLink'
+
+const quickNavIconByTarget = {
+  skills: Code2,
+  projects: FolderKanban,
+  experience: Briefcase,
+  awards: Award,
+  education: GraduationCap,
+  contact: Mail,
+}
+
+function GithubIcon({ className, size = 16 }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      width={size}
+      height={size}
+      className={className}
+      aria-hidden
+    >
+      <path
+        fill="currentColor"
+        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+      />
+    </svg>
+  )
+}
 
 function RightColumn({ about, rightPanelLinks, projectsSection, experienceSection, educationSection, achievementsSection }) {
   const [activeProject, setActiveProject] = useState(null)
@@ -26,18 +64,29 @@ function RightColumn({ about, rightPanelLinks, projectsSection, experienceSectio
           </div>
         </section>
 
-        <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {rightPanelLinks.map((item) => (
-            <SectionLink
-              key={item.label}
-              target={item.target}
-              className="min-h-28 rounded-xl border border-slate-200 bg-white p-6 text-left shadow-sm transition hover:bg-slate-50"
-            >
-              <span className="text-lg font-semibold text-slate-500 underline decoration-slate-400 underline-offset-4 md:text-xl">
-                {item.label}
-              </span>
-            </SectionLink>
-          ))}
+        <section aria-label="Jump to section" className="grid grid-cols-2 gap-2 sm:grid-cols-3">
+          {rightPanelLinks.map((item) => {
+            const Icon = quickNavIconByTarget[item.target] ?? LayoutGrid
+            return (
+              <SectionLink
+                key={item.label}
+                target={item.target}
+                className="group flex min-h-0 items-center gap-2.5 rounded-lg border border-slate-200/90 bg-white px-2.5 py-2 text-left shadow-sm transition hover:border-slate-300 hover:bg-slate-50/90 hover:shadow-md focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+              >
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-slate-100 text-slate-600 transition group-hover:bg-indigo-50 group-hover:text-indigo-700">
+                  <Icon size={16} strokeWidth={2} aria-hidden />
+                </span>
+                <span className="min-w-0 flex-1 text-[13px] font-semibold leading-tight text-slate-800 sm:text-sm">
+                  {item.label}
+                </span>
+                <ChevronRight
+                  size={14}
+                  className="shrink-0 text-slate-300 transition group-hover:translate-x-0.5 group-hover:text-indigo-500"
+                  aria-hidden
+                />
+              </SectionLink>
+            )
+          })}
         </section>
 
         <section
@@ -53,12 +102,43 @@ function RightColumn({ about, rightPanelLinks, projectsSection, experienceSectio
                 key={project.title}
                 className="overflow-hidden rounded-xl border border-slate-200 bg-white"
               >
-                <div className="h-24 bg-gradient-to-r from-blue-950 via-blue-900 to-slate-800 p-3">
-                  <span className="text-sm font-semibold uppercase tracking-wide text-white">
+                <div
+                  className={`relative flex h-32 items-end p-3 ${
+                    project.coverImage
+                      ? ''
+                      : 'bg-gradient-to-r from-blue-950 via-blue-900 to-slate-800'
+                  }`}
+                >
+                  {project.coverImage && (
+                    <>
+                      <img
+                        src={project.coverImage}
+                        alt={project.coverImageAlt || ''}
+                        className="absolute inset-0 h-full w-full object-cover object-left-top"
+                      />
+                      <div
+                        className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-900/35 to-transparent"
+                        aria-hidden
+                      />
+                    </>
+                  )}
+                  <span className="relative z-10 text-sm font-semibold uppercase tracking-wide text-white drop-shadow-sm">
                     {project.title}
                   </span>
                 </div>
                 <div className="space-y-3 p-3">
+                  {project.repoUrl && (
+                    <a
+                      href={project.repoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`View ${project.title} repository on GitHub`}
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 transition hover:text-slate-900"
+                    >
+                      <GithubIcon size={16} className="shrink-0 text-slate-600" />
+                      <span className="underline decoration-slate-300 underline-offset-2">GitHub</span>
+                    </a>
+                  )}
                   <p className="text-xs text-slate-700">{project.description}</p>
                   <div className="flex flex-wrap gap-1.5">
                     {project.tags.map((tag) => (
