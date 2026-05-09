@@ -1,9 +1,7 @@
-import { ExternalLink } from 'lucide-react'
+import { Download } from 'lucide-react'
 import SectionLink from './SectionLink'
 
 function Header({ header }) {
-  const resumeUrl = header.resumeLink || '#'
-
   const coverStyle = header.coverImage
     ? {
         backgroundImage: `linear-gradient(to bottom right, rgba(250, 250, 249, 0.94), rgba(248, 250, 252, 0.9)), url(${header.coverImage})`,
@@ -39,15 +37,12 @@ function Header({ header }) {
             ))}
           </div>
           <a
-            href={resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Resume — opens PDF in a new tab"
-            title="Opens in a new tab"
+            href={header.resumeLink || '#'}
+            download="Harsh-Gupta-Resume.pdf"
             className="flex items-center gap-1.5 rounded-full border border-slate-800 bg-slate-900 px-4 py-1.5 text-[13px] font-medium text-white transition hover:bg-slate-800 hover:shadow-md"
           >
-            <ExternalLink size={14} aria-hidden />
-            Resume
+            <Download size={14} />
+            Download Resume
           </a>
         </div>
       </div>
