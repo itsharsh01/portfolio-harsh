@@ -2,8 +2,8 @@ import coverPattern from './cover-pattern.png'
 import overviewImage from './overview-image.png'
 import tenderlensAiCover from './tenderlens-ai-cover.png'
 import intelligradDashboard from './intelligrad-dashboard.png'
-import admitguardCover from './admitguard-cover.png'
 import bookwiseAiCover from './bookwise-ai-cover.png'
+import aiQueryRoutingCover from './ai-query-routing.png'
 import negdLogo from './negd-logo.jpg'
 import plutosLogo from './plutos-logo.jpg'
 import echoLogo from './echo-logo.jpg'
@@ -17,8 +17,8 @@ const pathToUrl = {
   '/overview-image.png': overviewImage,
   '/tenderlens-ai-cover.png': tenderlensAiCover,
   '/intelligrad-dashboard.png': intelligradDashboard,
-  '/admitguard-cover.png': admitguardCover,
   '/bookwise-ai-cover.png': bookwiseAiCover,
+  '/ai-query-routing.png': aiQueryRoutingCover,
   '/negd-logo.jpg': negdLogo,
   '/plutos-logo.jpg': plutosLogo,
   '/echo-logo.jpg': echoLogo,

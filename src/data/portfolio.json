@@ -170,6 +170,37 @@
     "subtitle": "Click More Detail to view more.",
     "items": [
       {
+        "title": "AI Query Routing & Resolution System",
+        "description": "Automates customer query routing and resolution using AI, reducing turnaround time from days to real-time.",
+        "tags": ["Python", "Machine Learning", "Gemini", "FastAPI", "React", "WebSockets"],
+        "repoUrl": "https://github.com/you/repo",
+        "coverImage": "/ai-query-routing.png",
+        "coverImageAlt": "Customer support dashboard — AI core routing user queries to departments and companies in real time",
+        "target": "projects",
+        "detail": {
+          "date": "2026",
+          "utilizedTool": "Python, Machine Learning, Gemini API, FastAPI, ReactJS, WebSockets",
+          "goalChallenge": [
+            "Manual routing of customer queries across departments and companies causing delays up to 10 days.",
+            "Lack of real-time visibility and communication between customers, companies, and internal teams.",
+            "High operational overhead due to dependency on manual triaging and tracking systems."
+          ],
+          "whatIDid": [
+            "Built an AI-driven system to classify and route queries to the correct department and company automatically.",
+            "Integrated LLM-based intent detection (Gemini) for dynamic and accurate query understanding.",
+            "Designed a real-time backend using FastAPI and WebSockets for instant query processing and updates.",
+            "Developed chatbot interfaces for both customers and companies to streamline query interaction.",
+            "Implemented multi-level routing logic and monitoring dashboards for end-to-end visibility."
+          ],
+          "outcomeImpact": [
+            "Reduced query resolution time from 10 days to 1 day through intelligent automation.",
+            "Achieved zero manual effort in query routing, eliminating operational bottlenecks.",
+            "Improved routing accuracy and reduced misclassification with AI-based intent detection.",
+            "Enabled real-time tracking and communication, significantly enhancing user experience and efficiency."
+          ]
+        }
+      },
+      {
         "title": "TenderLens AI",
         "description": "AI-powered tender eligibility and compliance evaluator.",
         "tags": ["LangGraph", "FastAPI", "React", "Redis", "Celery"],
@@ -216,31 +247,6 @@
           "outcomeImpact": [
             "Created measurable AI-driven learning scores for otherwise untracked LLM interactions.",
             "Maintained over 95% topic adherence through guided conversational learning flows."
-          ]
-        }
-      },
-      {
-        "title": "AdmitGuard",
-        "description": "AI-powered admission eligibility and verification platform.",
-        "tags": ["FastAPI", "React", "PostgreSQL", "Rule Engine", "AI Validation"],
-        "repoUrl": "https://github.com/itsharsh01/admit-guard",
-        "coverImage": "/admitguard-cover.png",
-        "coverImageAlt": "Admit Guard — secure admissions, streamlined success: shield branding with data flowing from chaos to order",
-        "target": "projects",
-        "detail": {
-          "date": "2026",
-          "utilizedTool": "Python, FastAPI, ReactJS, PostgreSQL, Rule Engine, AI Validation Pipelines",
-          "goalChallenge": [
-            "Manual spreadsheet-based admission verification caused silent eligibility errors and late-stage candidate rejection.",
-            "Institution-specific eligibility rules were complex, exception-driven, and frequently updated."
-          ],
-          "whatIDid": [
-            "Built a rule-driven validation platform to automate eligibility checks, structured exception handling, and document verification workflows.",
-            "Designed configurable admission rules so changing program criteria could be updated without disrupting existing candidate pipelines."
-          ],
-          "outcomeImpact": [
-            "Reduced manual verification cycles by nearly 70%.",
-            "Moved eligibility validation to early application stages, preventing costly downstream processing errors."
           ]
         }
       },
