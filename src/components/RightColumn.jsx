@@ -9,6 +9,7 @@ import {
   GraduationCap,
   LayoutGrid,
   Mail,
+  Play,
   X,
 } from 'lucide-react'
 import SectionLink from './SectionLink'
@@ -128,17 +129,33 @@ function RightColumn({ about, rightPanelLinks, projectsSection, experienceSectio
                   </span>
                 </div>
                 <div className="space-y-3 p-3">
-                  {project.repoUrl && (
-                    <a
-                      href={project.repoUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label={`View ${project.title} repository on GitHub`}
-                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 transition hover:text-slate-900"
-                    >
-                      <GithubIcon size={16} className="shrink-0 text-slate-600" />
-                      <span className="underline decoration-slate-300 underline-offset-2">GitHub</span>
-                    </a>
+                  {(project.repoUrl || project.demoUrl) && (
+                    <div className="flex flex-wrap items-center gap-3">
+                      {project.repoUrl && (
+                        <a
+                          href={project.repoUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`View ${project.title} repository on GitHub`}
+                          className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 transition hover:text-slate-900"
+                        >
+                          <GithubIcon size={16} className="shrink-0 text-slate-600" />
+                          <span className="underline decoration-slate-300 underline-offset-2">GitHub</span>
+                        </a>
+                      )}
+                      {project.demoUrl && (
+                        <a
+                          href={project.demoUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`Watch ${project.title} demo`}
+                          className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 transition hover:text-slate-900"
+                        >
+                          <Play size={16} className="shrink-0 text-slate-600" aria-hidden />
+                          <span className="underline decoration-slate-300 underline-offset-2">Demo</span>
+                        </a>
+                      )}
+                    </div>
                   )}
                   <p className="text-xs text-slate-700">{project.description}</p>
                   <div className="flex flex-wrap gap-1.5">
