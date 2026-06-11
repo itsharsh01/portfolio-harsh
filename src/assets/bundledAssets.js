@@ -9,6 +9,7 @@ import plutosLogo from './plutos-logo.jpg'
 import echoLogo from './echo-logo.jpg'
 import iitGandhinagarLogo from './iit-gandhinagar-logo.jpg'
 import aktuLogo from './aktu-logo.jpg'
+import jupiterAiCover from './jupiter-ai.png'
 import resumePdf from './Harsh-Gupta-Resume.pdf'
 
 /** Portfolio.json uses these paths; map them to Vite-bundled URLs. */
@@ -19,6 +20,7 @@ const pathToUrl = {
   '/intelligrad-dashboard.png': intelligradDashboard,
   '/bookwise-ai-cover.png': bookwiseAiCover,
   '/ai-query-routing.png': aiQueryRoutingCover,
+  '/jupiter-ai.png': jupiterAiCover,
   '/negd-logo.jpg': negdLogo,
   '/plutos-logo.jpg': plutosLogo,
   '/echo-logo.jpg': echoLogo,

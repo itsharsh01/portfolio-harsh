@@ -172,6 +172,78 @@
     "subtitle": "Click More Detail to view more.",
     "items": [
       {
+        "title": "Jupiter AI - Autonomous AI Governance Auditor",
+        "description": "An AI governance and security platform that discovers enterprise AI systems, generates policy-driven audit tests, analyzes execution traces, and identifies governance, security, privacy, and compliance risks with root-cause analysis.",
+        "tags": [
+          "Python",
+          "Google ADK",
+          "LangGraph",
+          "Neo4j",
+          "Arize Phoenix",
+          "Gemini",
+          "FastAPI",
+          "Knowledge Graph",
+          "LLM-as-a-Judge",
+          "AI Governance"
+        ],
+        "repoUrl": "https://github.com/itsharsh01/jupiter-ai",
+        "demoUrl": "https://youtu.be/aS_-RFJlg2s",
+        "liveUrl": "https://ui-dot-jupiter-ai-498513.uc.r.appspot.com/",
+        "coverImage": "/jupiter-ai.png",
+        "coverImageAlt": "Jupiter AI governance dashboard showing AI system discovery, governance graph, policy-driven testing, risk analysis, and trace-based root cause investigation.",
+        "target": "projects",
+        "detail": {
+          "date": "2026",
+          "utilizedTool": "Google ADK, LangGraph, Neo4j, Arize Phoenix, Gemini, FastAPI, Python, Knowledge Graphs, LLM-as-a-Judge",
+          "goalChallenge": [
+            "Organizations deploy AI systems without a clear understanding of governance, security, privacy, and compliance risks.",
+            "Traditional AI observability tools provide traces and logs but fail to explain policy violations, root causes, and remediation paths.",
+            "Manual AI audits are time-consuming, expensive, and difficult to scale across rapidly evolving agentic and RAG-based systems."
+          ],
+          "whatIDid": [
+            "Built a Discovery Engine that interviews stakeholders and automatically understands AI architectures, tools, data assets, knowledge sources, and security controls.",
+            "Designed a governance knowledge graph using Neo4j to model policies, controls, risks, assets, regulations, and AI system relationships.",
+            "Implemented Digital Twin generation to create governance-aware representations of enterprise AI systems.",
+            "Developed a policy-driven test generation engine that converts governance requirements into executable audit scenarios.",
+            "Integrated Arize Phoenix for trace collection, observability, evidence gathering, and root-cause analysis.",
+            "Implemented LLM-as-a-Judge evaluation pipelines to identify policy violations, risky behaviors, tool misuse, data leakage, and governance failures."
+          ],
+          "outcomeImpact": [
+            "Reduced manual AI governance and audit effort by over 80% through automated discovery, testing, and evidence collection.",
+            "Enabled explainable governance audits by linking findings directly to policies, controls, risks, traces, and remediation recommendations.",
+            "Improved audit coverage through risk-based and policy-driven test generation instead of generic red-team prompts.",
+            "Provided actionable root-cause analysis by identifying the exact agent, tool, workflow, or document responsible for governance violations.",
+            "Accelerated enterprise AI risk assessments and compliance readiness through continuous and automated governance validation."
+          ]
+        }
+      },
+      {
+        "title": "TenderLens AI",
+        "description": "AI-powered tender eligibility and compliance evaluator.",
+        "tags": ["LangGraph", "FastAPI", "React", "Redis", "Celery"],
+        "repoUrl": "https://github.com/itsharsh01/tender-analyzer",
+        "demoUrl": "https://www.loom.com/share/03522d333cb34d54bdd89800ae1c868b",
+        "coverImage": "/tenderlens-ai-cover.png",
+        "coverImageAlt": "TenderLens AI — AI evaluator branding: precision tender evaluation with neural-inspired circuitry",
+        "target": "projects",
+        "detail": {
+          "date": "2026",
+          "utilizedTool": "Python, LangGraph, FastAPI, ReactJS, Groq, OpenRouter, Celery, Redis",
+          "goalChallenge": [
+            "Manual tender procurement review consumes significant time and expert effort.",
+            "Vendors struggle to understand exact eligibility criteria and missing compliance documents."
+          ],
+          "whatIDid": [
+            "Built a multi-agent evaluation workflow for tender parsing, criteria extraction, submission comparison, and eligibility scoring.",
+            "Designed document intelligence pipelines that map uploaded submissions directly against tender criteria with evidence-backed compliance reporting."
+          ],
+          "outcomeImpact": [
+            "Reduced manual procurement evaluation effort by over 80%.",
+            "Enabled instant eligibility checks with exact missing criteria and document-level compliance visibility."
+          ]
+        }
+      },
+      {
         "title": "AI Query Routing & Resolution System",
         "description": "Automates customer query routing and resolution using AI, reducing turnaround time from days to real-time.",
         "tags": ["Python", "Machine Learning", "Gemini", "FastAPI", "React", "WebSockets"],
@@ -200,32 +272,6 @@
             "Achieved zero manual effort in query routing, eliminating operational bottlenecks.",
             "Improved routing accuracy and reduced misclassification with AI-based intent detection.",
             "Enabled real-time tracking and communication, significantly enhancing user experience and efficiency."
-          ]
-        }
-      },
-      {
-        "title": "TenderLens AI",
-        "description": "AI-powered tender eligibility and compliance evaluator.",
-        "tags": ["LangGraph", "FastAPI", "React", "Redis", "Celery"],
-        "repoUrl": "https://github.com/itsharsh01/tender-analyzer",
-        "demoUrl": "https://www.loom.com/share/03522d333cb34d54bdd89800ae1c868b",
-        "coverImage": "/tenderlens-ai-cover.png",
-        "coverImageAlt": "TenderLens AI — AI evaluator branding: precision tender evaluation with neural-inspired circuitry",
-        "target": "projects",
-        "detail": {
-          "date": "2026",
-          "utilizedTool": "Python, LangGraph, FastAPI, ReactJS, Groq, OpenRouter, Celery, Redis",
-          "goalChallenge": [
-            "Manual tender procurement review consumes significant time and expert effort.",
-            "Vendors struggle to understand exact eligibility criteria and missing compliance documents."
-          ],
-          "whatIDid": [
-            "Built a multi-agent evaluation workflow for tender parsing, criteria extraction, submission comparison, and eligibility scoring.",
-            "Designed document intelligence pipelines that map uploaded submissions directly against tender criteria with evidence-backed compliance reporting."
-          ],
-          "outcomeImpact": [
-            "Reduced manual procurement evaluation effort by over 80%.",
-            "Enabled instant eligibility checks with exact missing criteria and document-level compliance visibility."
           ]
         }
       },

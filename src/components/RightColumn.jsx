@@ -11,6 +11,7 @@ import {
   Mail,
   Play,
   X,
+  Globe,
 } from 'lucide-react'
 import SectionLink from './SectionLink'
 import { resolveAssetUrl } from '../assets/bundledAssets'
@@ -129,7 +130,7 @@ function RightColumn({ about, rightPanelLinks, projectsSection, experienceSectio
                   </span>
                 </div>
                 <div className="space-y-3 p-3">
-                  {(project.repoUrl || project.demoUrl) && (
+                  {(project.repoUrl || project.demoUrl || project.liveUrl) && (
                     <div className="flex flex-wrap items-center gap-3">
                       {project.repoUrl && (
                         <a
@@ -153,6 +154,18 @@ function RightColumn({ about, rightPanelLinks, projectsSection, experienceSectio
                         >
                           <Play size={16} className="shrink-0 text-slate-600" aria-hidden />
                           <span className="underline decoration-slate-300 underline-offset-2">Demo</span>
+                        </a>
+                      )}
+                      {project.liveUrl && (
+                        <a
+                          href={project.liveUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          aria-label={`Visit ${project.title} live site`}
+                          className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 transition hover:text-slate-900"
+                        >
+                          <Globe size={16} className="shrink-0 text-slate-600" aria-hidden />
+                          <span className="underline decoration-slate-300 underline-offset-2">Live</span>
                         </a>
                       )}
                     </div>
