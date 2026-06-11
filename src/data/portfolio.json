@@ -176,12 +176,7 @@
         "description": "An AI governance and security platform that discovers enterprise AI systems, generates policy-driven audit tests, analyzes execution traces, and identifies governance, security, privacy, and compliance risks with root-cause analysis.",
         "tags": [
           "Python",
-          "Google ADK",
           "LangGraph",
-          "Neo4j",
-          "Arize Phoenix",
-          "Gemini",
-          "FastAPI",
           "Knowledge Graph",
           "LLM-as-a-Judge",
           "AI Governance"
@@ -246,7 +241,7 @@
       {
         "title": "AI Query Routing & Resolution System",
         "description": "Automates customer query routing and resolution using AI, reducing turnaround time from days to real-time.",
-        "tags": ["Python", "Machine Learning", "Gemini", "FastAPI", "React", "WebSockets"],
+        "tags": ["Python", "Machine Learning", "Gemini", "FastAPI", "React"],
         "repoUrl": "https://github.com/itsharsh01/bureaucracy-automation",
         "demoUrl": "https://www.loom.com/share/b0a973c926ea458d970fa0d8b9a36ac2",
         "coverImage": "/ai-query-routing.png",
@@ -299,7 +294,9 @@
             "Maintained over 95% topic adherence through guided conversational learning flows."
           ]
         }
-      },
+      }
+    ],
+    "commentedItems": [
       {
         "title": "BookWise AI",
         "description": "Advanced RAG chatbot for deep book learning and contextual Q&A.",
@@ -308,7 +305,6 @@
           "FastAPI",
           "Vector DB",
           "Hybrid Search",
-          "Re-ranking",
           "RAG"
         ],
         "coverImage": "/bookwise-ai-cover.png",
